@@ -40,11 +40,11 @@ const Login = () => {
                 setToken(data.token)
                 navigate('/')
 
-            }).catch(err => setErr("login yoki parol xato terildi"))
+            }).catch(err => setErr("login yoki parol xato terildi" + err))
         }
     }
 
-    // eve.holt@reqres.in    cityslicka
+    
     return (
         <div className="login-page">
             <Container>

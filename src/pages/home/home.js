@@ -4,7 +4,7 @@ import Navbar from "../../components/navbar/navbar";
 import { BsChevronRight,BsTwitter } from "react-icons/bs";
 import { FaFacebookF,FaGithub,FaLinkedinIn } from "react-icons/fa";
 import Posts from "../../components/posts/posts";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./home.scss";
 import Footer from "../../components/footer/footer";
 import Pagination from "../../components/pagination/pagination";

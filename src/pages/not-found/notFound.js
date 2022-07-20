@@ -17,7 +17,7 @@ const NotFound = () => {
             <Container>
                 <Navbar />
                 <div className="error-box">
-                    <img src={errorImg} alt="" />
+                    <img src={errorImg} alt="image" />
                     <h1>Page not found - 404</h1>
                     <p>This page not found (deleted or never exists).
                         <br/>Try a phrase in search box or back to home and start again.

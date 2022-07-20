@@ -1,6 +1,5 @@
 import Logo from "../logo/logo";
 import "./footer.scss";
-import logos from "../../assets/imgs/Subtract.svg";
 import Container from "../container/container";
 
 const Footer = () => {
