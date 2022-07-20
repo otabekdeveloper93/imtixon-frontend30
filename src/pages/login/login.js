@@ -40,7 +40,7 @@ const Login = () => {
                 setToken(data.token)
                 navigate('/')
 
-            }).catch(err => setErr("login yoki parol xato terildi" + err))
+            }).catch(err => setErr(`login yoki parol xato terildi  ${err}`))
         }
     }
 

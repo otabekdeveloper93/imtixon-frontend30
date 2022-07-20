@@ -27,15 +27,19 @@ const Navbar = () => {
     const filterArrayHandler = (evt) => {
         
         if(evt.target.matches("button") && evt.target.textContent !== "All"){
-            const newArr = albums.filter(item => item.type.includes(evt.target.textContent));
-            setFilterAlbum(newArr)
-            filterBlock.current.classList.remove("activate")
-            setGamburgerMenu(false);
+            if(albums){
+                const newArr = albums.filter(item => item.type.includes(evt.target.textContent));
+                setFilterAlbum(newArr)
+                filterBlock.current.classList.remove("activate")
+                setGamburgerMenu(false);
+            }
         }else{
-            const newArr = albums.filter(item => item.type.includes(''));
-            setFilterAlbum(newArr)
-            filterBlock.current.classList.remove("activate")
-            setGamburgerMenu(false);
+            if(albums){
+                const newArr = albums.filter(item => item.type.includes(''));
+                setFilterAlbum(newArr)
+                filterBlock.current.classList.remove("activate")
+                setGamburgerMenu(false);
+            }
         }
         
     }
