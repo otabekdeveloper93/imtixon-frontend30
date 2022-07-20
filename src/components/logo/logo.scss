@@ -1,0 +1,40 @@
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+    img{
+        width: 59px;
+        height: 59px;
+    }
+    h2{
+        margin: 0;
+        padding: 0;
+        margin-left: 15px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .logo{
+        img{
+            width: 33px;
+            height: 33px;
+        }
+        h2{
+            margin: 0;
+            padding: 0;
+            margin-left: 8px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+}

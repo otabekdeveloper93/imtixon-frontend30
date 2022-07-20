@@ -1,0 +1,32 @@
+.error-box{
+    width: 50%;
+    margin: 70px auto;
+    text-align: center;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+    h1{
+        margin: 50px 0 20px 0;
+        font-size: 24px;
+        font-weight: 400;
+        color: #474747;
+    }
+    p{
+        margin: 0;
+        margin-bottom: 40px;
+        font-weight: 300;
+        line-height: 24px;
+        font-size: 16px;
+    }
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg{
+            margin-left: 14px;
+        }
+    }
+}

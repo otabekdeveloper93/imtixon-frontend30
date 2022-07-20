@@ -1,0 +1,21 @@
+@import "./fonts";
+@import "./general";
+@import "./normalize";
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono',sans-serif;
+}
+button{
+    cursor: pointer;
+}
+
+p,span,li,small,h4{
+    color: #474747;
+}
+.d-none{
+    display: none;
+}
