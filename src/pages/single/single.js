@@ -46,7 +46,7 @@ const Single = () => {
                         <h4 className="user-title">{singleObj ? singleObj.title : ''}</h4>
                         <div><span className="single-date">{singleObj ? singleObj.date : ''}</span><span> | </span><span className="single-clock"><BsClock/> {singleObj ? singleObj.readed : 0} minutes read</span></div>
                     </div>
-                    <img className="img" src={Img} alt="img" />
+                    <img className="img" src={Img} alt="" />
                     <p className="post-body">{singleObj ? singleObj.body : 0}</p>
                     <h4>Information overload</h4>
                     <p>Vivamus dictum ultrices tortor. Ut imperdiet, enim in suscipit dignissim, mauris massa pellentesque augue, quis ultricies sem tortor et velit.</p>
